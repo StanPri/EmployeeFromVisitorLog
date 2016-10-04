@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="adce044b-4338-4177-9691-1c242acdf219" solutionId="adce044b-4338-4177-9691-1c242acdf219" resetWebServer="false" sharePointProductVersion="15.0" name="VisitorLog" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="2037b03c-60a0-47e2-9962-3b2b941d5492" />
+    <featureReference itemId="7dc2a612-c042-4e76-93d9-d68f7cf8803d" />
+    <featureReference itemId="d1e8bdb2-2c6c-4a59-bd9e-c2cde4d26108" />
+    <featureReference itemId="83be3e2a-a363-40c9-a5a2-238c14cb5f59" />
+    <featureReference itemId="0e06eba2-917d-4d0e-91a2-4ff9c15f2254" />
+  </features>
+</package>

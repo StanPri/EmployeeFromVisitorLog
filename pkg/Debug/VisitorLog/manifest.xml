@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="adce044b-4338-4177-9691-1c242acdf219" SharePointProductVersion="15.0">
+  <FeatureManifests>
+    <FeatureManifest Location="VisitorLog_Feature1\Feature.xml" />
+    <FeatureManifest Location="VisitorLog_Feature2\Feature.xml" />
+    <FeatureManifest Location="VisitorLog_Feature3\Feature.xml" />
+    <FeatureManifest Location="VisitorLog_Feature4\Feature.xml" />
+    <FeatureManifest Location="VisitorLog_Feature5\Feature.xml" />
+  </FeatureManifests>
+</Solution>

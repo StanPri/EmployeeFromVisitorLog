@@ -1,0 +1,3 @@
+C:\Users\stanislav.pribytko\Source\Workspaces\SPA\VisitorLog\VisitorLog\bin\Debug\VisitorLog.pdb
+C:\Users\stanislav.pribytko\Source\Workspaces\SPA\VisitorLog\VisitorLog\obj\Debug\VisitorLog.dll
+C:\Users\stanislav.pribytko\Source\Workspaces\SPA\VisitorLog\VisitorLog\obj\Debug\VisitorLog.pdb

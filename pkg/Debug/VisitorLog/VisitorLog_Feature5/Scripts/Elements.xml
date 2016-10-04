@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\HelloAddIn.jsx" Url="Scripts/HelloAddIn.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\Display.react.jsx" Url="Scripts/components/Display.react.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\build\HelloAddIn.js" Url="Scripts/build/HelloAddIn.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react-dom.js" Url="Scripts/react-dom.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react.js" Url="Scripts/react.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\app.jsx" Url="Scripts/app.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\build\App.js" Url="Scripts/build/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\Header.jsx" Url="Scripts/components/Header.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\HomePage.jsx" Url="Scripts/components/HomePage.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\SearchBar.jsx" Url="Scripts/components/SearchBar.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\EmployeeList.jsx" Url="Scripts/components/EmployeeList.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\EmployeeListItem.jsx" Url="Scripts/components/EmployeeListItem.jsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\data.js" Url="Scripts/data.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Router.js" Url="Scripts/Router.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\EmployeePage.jsx" Url="Scripts/components/EmployeePage.jsx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
