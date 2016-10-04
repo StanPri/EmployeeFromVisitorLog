@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="2037b03c-60a0-47e2-9962-3b2b941d5492" Scope="Web" Title="VisitorLog Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\Compiled\scripts-all.js" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.eot" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.svg" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.ttf" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.woff" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.woff2" />
+    <ElementFile Location="Content\Fonts\FontAwesome.otf" />
+    <ElementFile Location="Content\Fonts\glyphicons-halflings-regular.eot" />
+    <ElementFile Location="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <ElementFile Location="Content\Fonts\glyphicons-halflings-regular.ttf" />
+    <ElementFile Location="Content\Fonts\glyphicons-halflings-regular.woff" />
+    <ElementFile Location="Content\Fonts\glyphicons-halflings-regular.woff2" />
+    <ElementFile Location="Content\Fonts\4.4.0\index.html" />
+    <ElementFile Location="Content\Styles\Styles.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet-theme-android.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet-theme-android.min.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet-theme-ios.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet-theme-ios.min.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet.css" />
+    <ElementFile Location="Content\Styles\ratchet\css\ratchet.min.css" />
+    <ElementFile Location="Content\Styles\ratchet\fonts\ratchicons.eot" />
+    <ElementFile Location="Content\Styles\ratchet\fonts\ratchicons.svg" />
+    <ElementFile Location="Content\Styles\ratchet\fonts\ratchicons.ttf" />
+    <ElementFile Location="Content\Styles\ratchet\fonts\ratchicons.woff" />
+    <ElementFile Location="Content\Styles\ratchet\js\ratchet.js" />
+    <ElementFile Location="Content\Styles\ratchet\js\ratchet.min.js" />
+    <ElementFile Location="Content\Styles\css\pageslider.css" />
+    <ElementFile Location="Content\Styles\css\styles.css" />
+    <ElementFile Location="Content\Styles\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\Otech.png" />
+    <ElementFile Location="Images\Microsoft-SharePoint-2013-icon.png" />
+    <ElementFile Location="Images\Watch-it-icon.png" />
+    <ElementFile Location="Images\OS-Microsoft-Tile-icon.png" />
+    <ElementFile Location="Images\check-user-icon.png" />
+    <ElementFile Location="Images\user-accept-icon.png" />
+    <ElementFile Location="Images\back_disabled.png" />
+    <ElementFile Location="Images\back_enabled.png" />
+    <ElementFile Location="Images\back_enabled_hover.png" />
+    <ElementFile Location="Images\forward_disabled.png" />
+    <ElementFile Location="Images\forward_enabled.png" />
+    <ElementFile Location="Images\forward_enabled_hover.png" />
+    <ElementFile Location="Images\sort_asc.png" />
+    <ElementFile Location="Images\sort_asc_disabled.png" />
+    <ElementFile Location="Images\sort_both.png" />
+    <ElementFile Location="Images\sort_desc.png" />
+    <ElementFile Location="Images\sort_desc_disabled.png" />
+    <ElementFile Location="Images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <ElementFile Location="Images\ui-bg_flat_75_ffffff_40x100.png" />
+    <ElementFile Location="Images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <ElementFile Location="Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <ElementFile Location="Images\ui-bg_glass_75_dadada_1x400.png" />
+    <ElementFile Location="Images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <ElementFile Location="Images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <ElementFile Location="Images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <ElementFile Location="Images\ui-icons_2e83ff_256x240.png" />
+    <ElementFile Location="Images\ui-icons_222222_256x240.png" />
+    <ElementFile Location="Images\ui-icons_454545_256x240.png" />
+    <ElementFile Location="Images\ui-icons_888888_256x240.png" />
+    <ElementFile Location="Images\ui-icons_cd0a0a_256x240.png" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

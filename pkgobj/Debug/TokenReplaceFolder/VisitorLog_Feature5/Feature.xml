@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="59489b5c-b5dc-477e-b6c5-1a114394e788" Scope="Web" Title="VisitorLog Feature5" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\HelloAddIn.jsx" />
+    <ElementFile Location="Scripts\components\Display.react.jsx" />
+    <ElementFile Location="Scripts\build\HelloAddIn.js" />
+    <ElementFile Location="Scripts\react-dom.js" />
+    <ElementFile Location="Scripts\react.js" />
+    <ElementFile Location="Scripts\app.jsx" />
+    <ElementFile Location="Scripts\build\App.js" />
+    <ElementFile Location="Scripts\components\Header.jsx" />
+    <ElementFile Location="Scripts\components\HomePage.jsx" />
+    <ElementFile Location="Scripts\components\SearchBar.jsx" />
+    <ElementFile Location="Scripts\components\EmployeeList.jsx" />
+    <ElementFile Location="Scripts\components\EmployeeListItem.jsx" />
+    <ElementFile Location="Scripts\data.js" />
+    <ElementFile Location="Scripts\Router.js" />
+    <ElementFile Location="Scripts\components\EmployeePage.jsx" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Scripts\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

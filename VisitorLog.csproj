@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A8ECD8A-C24A-41D3-9A7E-83C76F0C37F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VisitorLog</RootNamespace>
+    <AssemblyName>VisitorLog</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{3bb5b6d3-0246-441b-811f-c623ea8a5ccb}</AppFeaturePartId>
+    <WspPartId>{91847d01-2f5d-4815-b148-de8c55c11d79}</WspPartId>
+    <WorkflowPartId>{c6f9b182-cf17-4cc8-a4ff-6bf698dc847f}</WorkflowPartId>
+    <CspkgPartId>{afe48b05-5dc8-4d27-9b70-83dbb0e2a3c8}</CspkgPartId>
+    <SqlPackagePartId>{94cccfda-beb1-4e68-aa5a-c167efd8042c}</SqlPackagePartId>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\Fonts\4.4.0\index.html" />
+    <Content Include="Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Styles\App.css" />
+    <Content Include="Content\Styles\Styles.css" />
+    <Content Include="Content\Styles\css\pageslider.css" />
+    <Content Include="Content\Styles\css\styles.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet-theme-android.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet-theme-android.min.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet-theme-ios.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet-theme-ios.min.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet.css" />
+    <Content Include="Content\Styles\ratchet\css\ratchet.min.css" />
+    <Content Include="Content\Styles\ratchet\fonts\ratchicons.svg" />
+    <Content Include="Content\Styles\ratchet\js\ratchet.js" />
+    <Content Include="Content\Styles\ratchet\js\ratchet.min.js" />
+    <Content Include="Scripts\build\App.js" />
+    <Content Include="Scripts\build\HelloAddIn.js" />
+    <Content Include="Scripts\data.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\react-dom.js" />
+    <Content Include="Scripts\react.js" />
+    <Content Include="Scripts\Router.js" />
+    <Content Include="Scripts\_references.js" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Content\Fonts\fontawesome-webfont.eot" />
+    <None Include="Content\Fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\Fonts\FontAwesome.otf" />
+    <None Include="Content\Fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Content\Fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Content\Fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Content\Fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{7dc2a612-c042-4e76-93d9-d68f7cf8803d}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{d1e8bdb2-2c6c-4a59-bd9e-c2cde4d26108}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{83be3e2a-a363-40c9-a5a2-238c14cb5f59}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{0e06eba2-917d-4d0e-91a2-4ff9c15f2254}</FeatureId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5176ea48-cf5d-40a2-b7c2-5dff80db8aca}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Compiled\scripts-all.js" />
+    <Content Include="Elements.xml" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="gulpfile.js" />
+    <Content Include="Images\back_disabled.png" />
+    <Content Include="Images\back_enabled.png" />
+    <Content Include="Images\back_enabled_hover.png" />
+    <Content Include="Images\check-user-icon.png" />
+    <Content Include="Images\forward_disabled.png" />
+    <Content Include="Images\forward_enabled.png" />
+    <Content Include="Images\forward_enabled_hover.png" />
+    <Content Include="Images\Microsoft-SharePoint-2013-icon.png" />
+    <Content Include="Images\OS-Microsoft-Tile-icon.png" />
+    <Content Include="Images\Otech.png" />
+    <Content Include="Images\sort_asc.png" />
+    <Content Include="Images\sort_asc_disabled.png" />
+    <Content Include="Images\sort_both.png" />
+    <Content Include="Images\sort_desc.png" />
+    <Content Include="Images\sort_desc_disabled.png" />
+    <Content Include="Images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Images\ui-icons_222222_256x240.png" />
+    <Content Include="Images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Images\ui-icons_454545_256x240.png" />
+    <Content Include="Images\ui-icons_888888_256x240.png" />
+    <Content Include="Images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Images\user-accept-icon.png" />
+    <Content Include="Images\Watch-it-icon.png" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Content\Styles\ratchet\fonts\ratchicons.eot" />
+    <None Include="Content\Styles\ratchet\fonts\ratchicons.ttf" />
+    <None Include="Content\Styles\ratchet\fonts\ratchicons.woff" />
+    <Content Include="Scripts\app.jsx" />
+    <Content Include="Scripts\components\Display.react.jsx" />
+    <Content Include="Scripts\components\EmployeeList.jsx" />
+    <Content Include="Scripts\components\EmployeeListItem.jsx" />
+    <Content Include="Scripts\components\EmployeePage.jsx" />
+    <Content Include="Scripts\components\Header.jsx" />
+    <Content Include="Scripts\components\HomePage.jsx" />
+    <Content Include="Scripts\components\SearchBar.jsx" />
+    <Content Include="Scripts\HelloAddIn.jsx" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{33d0e465-4546-40ca-b0ff-c575b14419a4}</SharePointProjectItemId>
+    </None>
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b3953b75-f0f6-456a-82bd-6ef0989cc7f7}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f8f9867-54b4-44a2-b29d-efc6c4af0fc3}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dff27ac7-0503-4f5f-8d98-ac3b7c563381}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{adce044b-4338-4177-9691-1c242acdf219}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{2037b03c-60a0-47e2-9962-3b2b941d5492}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

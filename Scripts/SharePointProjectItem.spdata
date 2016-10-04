@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="HelloAddIn.jsx" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="components\Display.react.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="build\HelloAddIn.js" Target="Scripts\build\" Type="ElementFile" />
+    <ProjectItemFile Source="react-dom.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="react.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="app.jsx" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="build\App.js" Target="Scripts\build\" Type="ElementFile" />
+    <ProjectItemFile Source="components\Header.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="components\HomePage.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="components\SearchBar.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="components\EmployeeList.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="components\EmployeeListItem.jsx" Target="Scripts\components\" Type="ElementFile" />
+    <ProjectItemFile Source="data.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Router.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="components\EmployeePage.jsx" Target="Scripts\components\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
