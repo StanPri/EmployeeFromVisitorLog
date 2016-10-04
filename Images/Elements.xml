@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\Otech.png" Url="Images/Otech.png" ReplaceContent="TRUE" />
+    <File Path="Images\Microsoft-SharePoint-2013-icon.png" Url="Images/Microsoft-SharePoint-2013-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\Watch-it-icon.png" Url="Images/Watch-it-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\OS-Microsoft-Tile-icon.png" Url="Images/OS-Microsoft-Tile-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\check-user-icon.png" Url="Images/check-user-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\user-accept-icon.png" Url="Images/user-accept-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\back_disabled.png" Url="Images/back_disabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\back_enabled.png" Url="Images/back_enabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\back_enabled_hover.png" Url="Images/back_enabled_hover.png" ReplaceContent="TRUE" />
+    <File Path="Images\forward_disabled.png" Url="Images/forward_disabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\forward_enabled.png" Url="Images/forward_enabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\forward_enabled_hover.png" Url="Images/forward_enabled_hover.png" ReplaceContent="TRUE" />
+    <File Path="Images\sort_asc.png" Url="Images/sort_asc.png" ReplaceContent="TRUE" />
+    <File Path="Images\sort_asc_disabled.png" Url="Images/sort_asc_disabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\sort_both.png" Url="Images/sort_both.png" ReplaceContent="TRUE" />
+    <File Path="Images\sort_desc.png" Url="Images/sort_desc.png" ReplaceContent="TRUE" />
+    <File Path="Images\sort_desc_disabled.png" Url="Images/sort_desc_disabled.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_0_aaaaaa_40x100.png" Url="Images/ui-bg_flat_0_aaaaaa_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_flat_75_ffffff_40x100.png" Url="Images/ui-bg_flat_75_ffffff_40x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_glass_55_fbf9ee_1x400.png" Url="Images/ui-bg_glass_55_fbf9ee_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_glass_65_ffffff_1x400.png" Url="Images/ui-bg_glass_65_ffffff_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_glass_75_dadada_1x400.png" Url="Images/ui-bg_glass_75_dadada_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_glass_75_e6e6e6_1x400.png" Url="Images/ui-bg_glass_75_e6e6e6_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_glass_95_fef1ec_1x400.png" Url="Images/ui-bg_glass_95_fef1ec_1x400.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-bg_highlight-soft_75_cccccc_1x100.png" Url="Images/ui-bg_highlight-soft_75_cccccc_1x100.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_2e83ff_256x240.png" Url="Images/ui-icons_2e83ff_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_222222_256x240.png" Url="Images/ui-icons_222222_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_454545_256x240.png" Url="Images/ui-icons_454545_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_888888_256x240.png" Url="Images/ui-icons_888888_256x240.png" ReplaceContent="TRUE" />
+    <File Path="Images\ui-icons_cd0a0a_256x240.png" Url="Images/ui-icons_cd0a0a_256x240.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

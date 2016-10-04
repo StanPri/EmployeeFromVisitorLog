@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\Compiled\scripts-all.js" Url="Content/Compiled/scripts-all.js" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.eot" Url="Content/Fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.svg" Url="Content/Fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.ttf" Url="Content/Fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.woff" Url="Content/Fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.woff2" Url="Content/Fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\FontAwesome.otf" Url="Content/Fonts/FontAwesome.otf" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\glyphicons-halflings-regular.eot" Url="Content/Fonts/glyphicons-halflings-regular.eot" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\glyphicons-halflings-regular.svg" Url="Content/Fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\glyphicons-halflings-regular.ttf" Url="Content/Fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\glyphicons-halflings-regular.woff" Url="Content/Fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\glyphicons-halflings-regular.woff2" Url="Content/Fonts/glyphicons-halflings-regular.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\4.4.0\index.html" Url="Content/Fonts/4.4.0/index.html" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\Styles.css" Url="Content/Styles/Styles.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet-theme-android.css" Url="Content/Styles/ratchet/css/ratchet-theme-android.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet-theme-android.min.css" Url="Content/Styles/ratchet/css/ratchet-theme-android.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet-theme-ios.css" Url="Content/Styles/ratchet/css/ratchet-theme-ios.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet-theme-ios.min.css" Url="Content/Styles/ratchet/css/ratchet-theme-ios.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet.css" Url="Content/Styles/ratchet/css/ratchet.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\css\ratchet.min.css" Url="Content/Styles/ratchet/css/ratchet.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\fonts\ratchicons.eot" Url="Content/Styles/ratchet/fonts/ratchicons.eot" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\fonts\ratchicons.svg" Url="Content/Styles/ratchet/fonts/ratchicons.svg" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\fonts\ratchicons.ttf" Url="Content/Styles/ratchet/fonts/ratchicons.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\fonts\ratchicons.woff" Url="Content/Styles/ratchet/fonts/ratchicons.woff" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\js\ratchet.js" Url="Content/Styles/ratchet/js/ratchet.js" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\ratchet\js\ratchet.min.js" Url="Content/Styles/ratchet/js/ratchet.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\css\pageslider.css" Url="Content/Styles/css/pageslider.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\css\styles.css" Url="Content/Styles/css/styles.css" ReplaceContent="TRUE" />
+    <File Path="Content\Styles\App.css" Url="Content/Styles/App.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
+    <ProjectItemFile Source="Compiled\scripts-all.js" Target="Content\Compiled\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\fontawesome-webfont.eot" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\fontawesome-webfont.svg" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\fontawesome-webfont.ttf" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\fontawesome-webfont.woff" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\fontawesome-webfont.woff2" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\FontAwesome.otf" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\glyphicons-halflings-regular.eot" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\glyphicons-halflings-regular.svg" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\glyphicons-halflings-regular.ttf" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\glyphicons-halflings-regular.woff" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\glyphicons-halflings-regular.woff2" Target="Content\Fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Fonts\4.4.0\index.html" Target="Content\Fonts\4.4.0\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\Styles.css" Target="Content\Styles\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet-theme-android.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet-theme-android.min.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet-theme-ios.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet-theme-ios.min.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\css\ratchet.min.css" Target="Content\Styles\ratchet\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\fonts\ratchicons.eot" Target="Content\Styles\ratchet\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\fonts\ratchicons.svg" Target="Content\Styles\ratchet\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\fonts\ratchicons.ttf" Target="Content\Styles\ratchet\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\fonts\ratchicons.woff" Target="Content\Styles\ratchet\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\js\ratchet.js" Target="Content\Styles\ratchet\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\ratchet\js\ratchet.min.js" Target="Content\Styles\ratchet\js\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\css\pageslider.css" Target="Content\Styles\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\css\styles.css" Target="Content\Styles\css\" Type="ElementFile" />
+    <ProjectItemFile Source="Styles\App.css" Target="Content\Styles\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

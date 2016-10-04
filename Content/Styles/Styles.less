@@ -1,0 +1,165 @@
+﻿
+/*!
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins - Load from NPM packages in resources project, and add adjustments on this file.
+@import "../Compiled/bootstrap/less/bootstrap.less";
+@import "../Compiled/fontawesome/less/font-awesome.less";
+@import (inline) "../Compiled/bootstrap/less/dataTables.bootstrap.css";
+
+@half-pad-padding: 3%;
+
+.modal-backdrop {
+    display: none !important;
+}
+
+.modal.fade {
+    background-color: rgba(0,0,0,0.54);
+}
+
+.modal {
+    .modal-dialog {
+        &.tiny {
+            width: 300px;
+        }
+    }
+}
+
+
+.input-xs {
+    height: 22px;
+    padding: 2px 5px;
+    font-size: 12px;
+    line-height: 1.5; //If Placeholder of the input is moved up, rem/modify this.
+    border-radius: 3px;
+}
+ 
+body {
+    overflow: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+    .half-pad {
+        &.left {
+            padding-left: @half-pad-padding;
+        }
+
+        &.right {
+            padding-right: @half-pad-padding;
+        }
+    }
+
+    a.btn:visited {
+        color: #fff;
+    }
+
+    .confirm {
+        display: none;
+    }
+
+    .confirming {
+        .confirm {
+            display: block;
+        }
+
+        .content {
+            display: none;
+        }
+    }
+
+    button {
+        min-width: 0;
+    }
+
+    .page-content {
+        margin-top: 35px;
+    }
+
+    .sp-peoplepicker-initialHelpText {
+        top: 6px;
+        left: 15px;
+        position: absolute;
+    }
+
+    .modal-footer {
+        box-shadow: inset 0 0 100px #bbb;
+    }
+
+    .backlink {
+        padding: 15px;
+        float: left;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .admin.frame-fill {
+        width: 100%;
+        height: 395px;
+    }
+
+    .text-larger {
+        font-size: 110%;
+    }
+
+    .loading-container {
+        text-align: center;
+        padding: 5px;
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .rotating {
+        @animation: 1s;
+
+        @-webkit-keyframes rotating /* Safari and Chrome */ {
+            from {
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            to {
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes rotating {
+            from {
+                -ms-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+
+            to {
+                -ms-transform: rotate(360deg);
+                -moz-transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        & {
+            -webkit-animation: rotating @animation linear infinite;
+            -moz-animation: rotating @animation linear infinite;
+            -ms-animation: rotating @animation linear infinite;
+            -o-animation: rotating @animation linear infinite;
+            animation: rotating @animation linear infinite;
+        }
+    }
+}
