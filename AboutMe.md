@@ -1,1 +1,3 @@
-It's author Stanislav Pribytkovsky
+Author Stanislav Pribytkovsky.
+
+This is my repo.
